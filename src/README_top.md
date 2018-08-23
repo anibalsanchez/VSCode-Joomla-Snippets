@@ -2,7 +2,7 @@
 
 Visual Studio Code Joomla snippets and code examples for Joomla 3 & 4.
 
-All code snippets are based on and follow the Joomla style guide https://docs.joomla.org/Joomla_CodeSniffer
+All code snippets are based on and follow the Joomla style guide <https://docs.joomla.org/Joomla_CodeSniffer>.
 
 ## Snippet Prefixes
 
