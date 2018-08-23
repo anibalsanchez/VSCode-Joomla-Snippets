@@ -1,30 +1,3 @@
-# VSCode Joomla Snippets
-
-Visual Studio Code Joomla snippets and code examples for Joomla 3 & 4.
-
-All code snippets are based on and follow the Joomla style guide https://docs.joomla.org/Joomla_CodeSniffer
-
-## Snippet Prefixes
-
-| Prefix | Description |
-| ------- | ----------|
-| j3- | Joomla 3 Snippets |
-| j4- | Joomla 4 Snippets |
-| jdoc- | Snippets for Templates |
-
-## Usage
-
-All Joomla snippets starts with "j3-", "j4-", or "jdoc-".
-
-## Joomla Snippets
-
-| Snippet | Description |
-| ------- | ----------|
-| j3-addscriptversion | Adds a linked script to the page with a version to allow to flush it (Joomla 3). |
-| j3-addstylesheetversion | Adds a linked stylesheet version to the page (Joomla 3). |
-| j3-head | Common template header variables for Joomla 3. |
-| j3-text | Expand a JText for Joomla 3. Translates a string into the current language. |
-| jdoc-add-module-position | Add a module position to a template. |
 
 ## Installation (Mac)
 
