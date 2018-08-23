@@ -1,6 +1,6 @@
 {
   "name": "vs-code-joomla-snippets",
-  "publisher": "Anibal Sanchez",
+  "publisher": "AnibalSanchez",
   "displayName": "Joomla Snippets",
   "description": "Snippets for Joomla. Including Joomla 3.x and Joomla 4 Snippets.",
   "icon": "images/joomla.png",
@@ -13,7 +13,7 @@
     "url": "https://github.com/anibalsanchez/VSCode-Joomla-Snippets/issues"
   },
   "homepage": "https://github.com/anibalsanchez/VSCode-Joomla-Snippets#readme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -36,6 +36,7 @@
     "build": "npm run build_snippets; npm run build_readme; npm run dups; npm run countPHP",
     "publish": "npm version patch; vsce publish",
     "patch": "npm version patch",
+    "install": "npm run build; vsce package; code --install-extension *.vsix",
     "build_snippets": "npm run build_php",
     "build_php": "cat src/snippets.json | jq -c 'map(select(.types | contains(\"php\")))' > snippets/php.json",
     "build_readme": "cat src/README_top.md > README.md; npm run generate_readme_table; cat src/README_bottom.md >> README.md;",

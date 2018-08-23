@@ -1,30 +1,43 @@
 # VSCode Joomla Snippets
 
-Visual Studio Code Joomla snippets and code examples for Joomla 3 & 4.
+Visual Studio Code Joomla snippets and code examples for Joomla 3 & 4 Alpha.
 
-All code snippets are based on and follow the Joomla style guide https://docs.joomla.org/Joomla_CodeSniffer
+All code snippets are based on and follow the Joomla style guide <https://docs.joomla.org/Joomla_CodeSniffer>.
 
 ## Snippet Prefixes
 
 | Prefix | Description |
 | ------- | ----------|
-| j3- | Joomla 3 Snippets |
-| j4- | Joomla 4 Snippets |
+| j- | Joomla Snippets |
+| j4- | Joomla 4 Alpha Snippets |
 | jdoc- | Snippets for Templates |
 
 ## Usage
 
-All Joomla snippets starts with "j3-", "j4-", or "jdoc-".
+All Joomla snippets starts with "j-", "j4-", or "jdoc-".
 
 ## Joomla Snippets
 
 | Snippet | Description |
 | ------- | ----------|
-| j3-addscriptversion | Adds a linked script to the page with a version to allow to flush it (Joomla 3). |
-| j3-addstylesheetversion | Adds a linked stylesheet version to the page (Joomla 3). |
-| j3-head | Common template header variables for Joomla 3. |
-| j3-text | Expand a JText for Joomla 3. Translates a string into the current language. |
+| j4-add-defer-remote-script | Adds a deferred remote script to the page, to start optimizing load of files. |
+| j4-add-defer-remote-stylesheet | Adds a deferred remote stylesheet to the page, to start optimizing load of files. |
+| j4-add-defer-script-extension | Adds a deferred extension script to the page, to start optimizing load of files. |
+| j4-add-inline-script | Adds an inline script to the page, to start reducing the number of loaded files. |
+| j4-add-inline-style | Adds an inline stylesheet declaration to the page, to start reducing the number of loaded files. |
+| j-add-defer-remote-script | Adds a deferred remote script to the page, to start optimizing load of files. |
+| j-add-defer-remote-stylesheet | Adds a deferred remote stylesheet to the page, to start optimizing load of files. |
+| j-add-defer-script-extension | Adds a deferred script to the page, to start optimizing load of files. |
+| j-add-inline-script | Adds an inline script to the page, to start reducing the number of loaded files. |
+| j-add-inline-stylesheet | Adds an inline stylesheet declaration to the page, to start reducing the number of loaded files. |
+| j-add-script-version | Adds a linked template script to the page with a version to allow to flush it. |
+| j-add-stylesheet-version | Adds a linked template stylesheet version to the page. |
 | jdoc-add-module-position | Add a module position to a template. |
+| j-formtoken | Method to determine a hash for anti-spoofing variable names. |
+| j-function | Standard Joomla function declaration. |
+| j-head | Common template header variables for Joomla 3. |
+| j-log | Method to add an entry to one custom log file. |
+| j-text | Expand a JText for Joomla 3. Translates a string into the current language. |
 
 ## Installation (Mac)
 
@@ -59,7 +72,7 @@ Please send any feedback or suggestions to [@anibal_sanchez](https://twitter.com
 
 ## Open Source
 
-This is an open source project and if you want to contribute I've added issues on github that are easy to start with. [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://github.com/BeastCode/VSCode-Angular-TypeScript-Snippets/labels/first-timers-only)
+This is an open source project and if you want to contribute I've added issues on github that are easy to start with. [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://github.com/anibalsanchez/VSCode-Joomla-Snippets/labels/first-timers-only)
 
 ## Disclaimer
 
@@ -74,4 +87,3 @@ MIT
 ## Acknowledgements
 
 - [Snippets para Visual Studio Code y Joomla](https://www.sergioiglesias.net/blog/joomla/418-snippets-para-visual-studio-code-y-joomla)
-
