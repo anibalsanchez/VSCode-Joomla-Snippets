@@ -70,6 +70,8 @@ If you want intellisense to show emmets before the snippets, you can force the e
 
 Please send any feedback or suggestions to [@anibal_sanchez](https://twitter.com/anibal_sanchez) (Twitter) or [create an issue](https://github.com/anibalsanchez/VSCode-Joomla-Snippets) on GitHub.
 
+Feel free to fork and **submit your PR** with suggestions and new Snippets.
+
 ## Open Source
 
 This is an open source project and if you want to contribute I've added issues on github that are easy to start with. [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://github.com/anibalsanchez/VSCode-Joomla-Snippets/labels/first-timers-only)
