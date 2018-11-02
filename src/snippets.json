@@ -40,8 +40,8 @@
     "description": "Adds a deferred remote stylesheet to the page, to start optimizing load of files.",
     "types": "php",
 		"body": [
-			"$script = '!function(e){var t=document.createElement(\"link\");t.rel=\"stylesheet\",t.href=\"'{$1:Stylesheet URL}'\",t.type=\"text/css\";var n=document.getElementsByTagName(\"link\")[0];n.parentNode.insertBefore(t,n)}();';",
-      "JFactory::getDocument()->addScriptDeclaration($script);"
+			"\\$script = '!function(e){var t=document.createElement(\"link\");t.rel=\"stylesheet\",t.href=\"'{$1:Stylesheet URL}'\",t.type=\"text/css\";var n=document.getElementsByTagName(\"link\")[0];n.parentNode.insertBefore(t,n)}();';",
+      "JFactory::getDocument()->addScriptDeclaration(\\$script);"
 		]
   },
 
@@ -50,8 +50,8 @@
     "description": "Adds an inline stylesheet declaration to the page, to start reducing the number of loaded files.",
     "types": "php",
 		"body": [
-			"$filePath = JHTMLHelper::stylesheet('mod_.../....min.css', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
-			"JFactory::getDocument()->addStyleDeclaration(file_get_contents(JPATH_ROOT . $filePath));"
+			"\\$filePath = JHTMLHelper::stylesheet('mod_.../....min.css', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
+			"JFactory::getDocument()->addStyleDeclaration(file_get_contents(JPATH_ROOT . \\$filePath));"
 		]
   },
 
@@ -60,8 +60,8 @@
     "description": "Adds an inline script to the page, to start reducing the number of loaded files.",
     "types": "php",
 		"body": [
-			"$filePath = JHtml::script('mod_.../....min.js', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
-			"JFactory::getDocument()->addScriptDeclaration(file_get_contents(JPATH_ROOT . $filePath));"
+			"\\$filePath = JHtml::script('mod_.../....min.js', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
+			"JFactory::getDocument()->addScriptDeclaration(file_get_contents(JPATH_ROOT . \\$filePath));"
 		]
 	},
 
@@ -95,8 +95,8 @@
       "use Joomla\\CMS\\Factory as CMSFactory;",
 			"use Joomla\\CMS\\HTML\\HTMLHelper as CMSHTMLHelper;",
 			"",
-			"$script = '!function(e){var t=document.createElement(\"link\");t.rel=\"stylesheet\",t.href=\"'{$1:Stylesheet URL}'\",t.type=\"text/css\";var n=document.getElementsByTagName(\"link\")[0];n.parentNode.insertBefore(t,n)}();';",
-      "CMSFactory::getDocument()->addScriptDeclaration($script);"
+			"\\$script = '!function(e){var t=document.createElement(\"link\");t.rel=\"stylesheet\",t.href=\"'{$1:Stylesheet URL}'\",t.type=\"text/css\";var n=document.getElementsByTagName(\"link\")[0];n.parentNode.insertBefore(t,n)}();';",
+      "CMSFactory::getDocument()->addScriptDeclaration(\\$script);"
 		]
   },
 
@@ -108,8 +108,8 @@
 			"use Joomla\\CMS\\Factory as CMSFactory;",
 			"use Joomla\\CMS\\HTML\\HTMLHelper as CMSHTMLHelper;",
 			"",
-			"$filePath = CMSHTMLHelper::stylesheet('mod_.../....min.css', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
-			"CMSFactory::getDocument()->addStyleDeclaration(file_get_contents(JPATH_ROOT . $filePath));"
+			"\\$filePath = CMSHTMLHelper::stylesheet('mod_.../....min.css', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
+			"CMSFactory::getDocument()->addStyleDeclaration(file_get_contents(JPATH_ROOT . \\$filePath));"
 		]
   },
 
@@ -121,8 +121,8 @@
 			"use Joomla\\CMS\\Factory as CMSFactory;",
 			"use Joomla\\CMS\\HTML\\HTMLHelper as CMSHTMLHelper;",
 			"",
-			"$filePath = CMSHTMLHelper::script('mod_.../....min.js', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
-			"CMSFactory::getDocument()->addScriptDeclaration(file_get_contents(JPATH_ROOT . $filePath));"
+			"\\$filePath = CMSHTMLHelper::script('mod_.../....min.js', ['version' => 'auto', 'relative' => true, 'pathOnly' => true]);",
+			"CMSFactory::getDocument()->addScriptDeclaration(file_get_contents(JPATH_ROOT . \\$filePath));"
 		]
 	},
 
@@ -177,11 +177,11 @@
     "types": "php",
     "body": [
       "defined('_JEXEC') or die;",
-      "$app = JFactory::getApplication();",
-      "$doc = JFactory::getDocument();",
-      "$user = JFactory::getUser();",
-      "$this->language = $doc->language;",
-      "$this->direction = $doc->direction;"
+      "\\$app = JFactory::getApplication();",
+      "\\$doc = JFactory::getDocument();",
+      "\\$user = JFactory::getUser();",
+      "\\$this->language = \\$doc->language;",
+      "\\$this->direction = \\$doc->direction;"
     ]
   },
 
