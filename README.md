@@ -25,6 +25,16 @@ All Joomla snippets starts with "j-", "j4-", or "jdoc-".
 | j4-add-defer-script-extension | Adds a deferred extension script to the page, to start optimizing load of files. |
 | j4-add-inline-script | Adds an inline script to the page, to start reducing the number of loaded files. |
 | j4-add-inline-style | Adds an inline stylesheet declaration to the page, to start reducing the number of loaded files. |
+| j4-app | Adds the Joomla Factory declaration and the app variable declaration. |
+| j4-arrayhelper | Adds the ArrayHelper declaration. |
+| j4-comp-params-backend-cli | Declaration of the component helper and params retrieval. |
+| j4-comp-params-frontend | Declaration of the component helper and params retrieval. |
+| j4-doc | Adds the Joomla Factory declaration and the document variable declaration. |
+| j4-factory | Adds the Joomla Factory declaration. |
+| j4-jinput | Declaration of the JInput. |
+| j4-registry | Adds the Joomla Registry declaration. |
+| j4-text-translation | Declares the text translation helper (a.k.a JText::_). |
+| j4-user | Adds the Joomla Factory declaration and the app variable declaration. |
 | j-add-defer-remote-script | Adds a deferred remote script to the page, to start optimizing load of files. |
 | j-add-defer-remote-stylesheet | Adds a deferred remote stylesheet to the page, to start optimizing load of files. |
 | j-add-defer-script-extension | Adds a deferred script to the page, to start optimizing load of files. |
@@ -69,8 +79,6 @@ If you want intellisense to show emmets before the snippets, you can force the e
 ## Feedback
 
 Please send any feedback or suggestions to [@anibal_sanchez](https://twitter.com/anibal_sanchez) (Twitter) or [create an issue](https://github.com/anibalsanchez/VSCode-Joomla-Snippets) on GitHub.
-
-Feel free to fork and **submit your PR** with suggestions and new Snippets.
 
 ## Open Source
 

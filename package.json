@@ -13,7 +13,7 @@
     "url": "https://github.com/anibalsanchez/VSCode-Joomla-Snippets/issues"
   },
   "homepage": "https://github.com/anibalsanchez/VSCode-Joomla-Snippets#readme",
-  "version": "0.0.5",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.0.0"
   },
