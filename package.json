@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "npm run build_snippets; npm run build_readme; npm run dups; npm run countPHP",
-    "publish": "npm version patch; vsce publish",
+    "publish": "npm version patch; vsce publish; git push",
     "patch": "npm version patch",
     "install": "npm run build; vsce package; code --install-extension *.vsix",
     "build_snippets": "npm run build_php",
