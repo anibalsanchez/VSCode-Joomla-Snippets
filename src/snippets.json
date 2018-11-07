@@ -198,6 +198,28 @@
     ]
   },
 
+  "J4 - Uri Base": {
+    "prefix": "j4-uri-base",
+    "description": "Adds the Joomla URI declaration, to get the Base URI.",
+    "types": "php",
+    "body": [
+      "use Joomla\\CMS\\Uri\\Uri as CMSUri;",
+      "",
+      "\\$base = CMSUri::base();"
+    ]
+  },
+
+  "J4 - Uri Root": {
+    "prefix": "j4-uri-root",
+    "description": "Adds the Joomla URI declaration, to get the Root URI.",
+    "types": "php",
+    "body": [
+      "use Joomla\\CMS\\Uri\\Uri as CMSUri;",
+      "",
+      "\\$root = CMSUri::root();"
+    ]
+  },
+
   "J4 - User": {
     "prefix": "j4-user",
     "description": "Adds the Joomla Factory declaration and the app variable declaration.",

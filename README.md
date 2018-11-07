@@ -34,6 +34,8 @@ All Joomla snippets starts with "j-", "j4-", or "jdoc-".
 | j4-jinput | Declaration of the JInput. |
 | j4-registry | Adds the Joomla Registry declaration. |
 | j4-text-translation | Declares the text translation helper (a.k.a JText::_). |
+| j4-uri-base | Adds the Joomla URI declaration, to get the Base URI. |
+| j4-uri-root | Adds the Joomla URI declaration, to get the Root URI. |
 | j4-user | Adds the Joomla Factory declaration and the app variable declaration. |
 | j-add-defer-remote-script | Adds a deferred remote script to the page, to start optimizing load of files. |
 | j-add-defer-remote-stylesheet | Adds a deferred remote stylesheet to the page, to start optimizing load of files. |
