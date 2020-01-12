@@ -38,7 +38,7 @@
     "patch": "npm version patch",
     "install": "npm run build; vsce package; code --install-extension *.vsix",
     "build_snippets": "npm run build_php",
-    "build_php": "cat src/snippets.json | jq -c 'map(select(.types | contains(\"php\")))' > snippets/php.json",
+    "build_php": "cat src/snippets.json > snippets/php.json",
     "build_readme": "cat src/README_top.md > README.md; npm run generate_readme_table; cat src/README_bottom.md >> README.md;",
     "generate_readme_table": "cat src/snippets.json | grep 'prefix\\|description' | sed -e \"s/description//\" | sed -e \"s/prefix//\" | sed -e 's/    \"\": \"//' | sed -e 's/\",//' | sed -e 'N;s/\\n/ | /' | sed -e 's/$/ |/g' | sed -e 's/^/| /' | sort  >> README.md",
     "dups": "npm run dup_snippet; npm run dup_name",
